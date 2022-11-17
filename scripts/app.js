@@ -321,8 +321,8 @@ function start() {
     .then(function (networkId) {
       if (networkId === "1") {
         isMainNetwork = true;
-        currentNetwork.text("You are currently at Mainnet").show();
-      } else if (networkId === "1313114") {
+        currentNetwork.text("You are currently at Eth Mainnet, please switch").show();
+      } else if (networkId === "12345") {
         isAltcoinchain = true;
         currentNetwork
           .text("Your are currently at Altcoinchain Network.")
