@@ -322,7 +322,7 @@ function start() {
       if (networkId === "1") {
         isMainNetwork = true;
         currentNetwork.text("You are currently at Eth Mainnet, please switch").show();
-      } else if (networkId === "12345") {
+      } else if (networkId === "2330") {
         isAltcoinchain = true;
         currentNetwork
           .text("Your are currently at Altcoinchain Network.")
